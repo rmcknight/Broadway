@@ -7,8 +7,15 @@ font-family: Helvetica;
   text-align: center;
 }
 
-.banner {
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.banner,
+.where {
   background-image: url("../images/the-flatiron-building.png");
+  color:white;
 }
 
 .banner h1 {
@@ -17,9 +24,9 @@ font-family: Helvetica;
   color: white;
   }
 
-.banner a {
+a {
   font-size: 18px;
-  color: blue;
+  color: white;
 }
 
 .details h2 {
@@ -27,11 +34,13 @@ font-family: Helvetica;
   font-weight: bold;
 }
 
-.details h3 {
-  font-size: 23px;
-  font-weight: bold;
-}
 
 .details p {
   font-size: 14px;
+}
+
+.footer{
+  text-align: left;
+  background-color: dimgray;
+  color: white;
 }
