@@ -15,6 +15,7 @@ h3 {
 .banner,
 .where {
   background-image: url("../images/the-flatiron-building.png");
+  background-size: 100% 100%;
   color:white;
 }
 
@@ -39,8 +40,12 @@ a {
   font-size: 14px;
 }
 
-.footer{
+.footer {
   text-align: left;
   background-color: dimgray;
   color: white;
+}
+
+.footer p {
+  font-size: 11px;
 }
